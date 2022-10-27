@@ -15,7 +15,6 @@ module.exports = defineConfig({
             '^/api': {
                 // target: 'http://152.136.185.210:5000',
                 target: 'http://localhost:51315/',
-
                 changeOrigin: true,
                 // 注意路径重写并不会在真实请求内体现出来
                 //如果本身的接口地址就有'/api'这种通用前缀，就可以把pathRewrite 删掉。注意这个方式只能在开发环境中使用。
